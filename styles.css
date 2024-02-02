@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+}
+
+button {
+    text-decoration: solid;
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 1%;
+}
+
+button:hover {
+    transition-duration: 120ms;
+    background-color: #EEEEEE;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#text {
+    display: inline-block;
+}
+
+.burrito {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 10%;
+    font-size: larger;
+}
+
+.player1 {
+    display: inline-block;
+    padding-right: 8%
+}
+
+.player2 {
+    display: inline-block;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    justify-content: center;
+}
